@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="fonts" href="https://fonts.google.com/specimen/Montserrat">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Pricing Component with Toggle Master</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+  <div class="bg-top">
+    <img src="images\bg-top.svg" alt="bg-top">
+  </div>
+  <div class="bg-bottom">
+    <img src="images\bg-bottom.svg" alt="bg-bottom">
+  </div>
+
+  <div class="title-container">
+  <h1>Our Pricing</h1>
+    <p>Annually</p>
+      <label class="switch">
+        <input type="checkbox" onclick="myFunction()">
+        <span class="slider round"></span>
+      </label>
+    <p>Monthly</p>
+  </div>
+
+  <div class="white container izq">
+    <h3>Basic</h3>
+    <p class="price hide mon">&dollar;19.99</p>
+    <p class="price anu">&dollar;199.99</p>
+    <hr>
+    <p>500 GB Storage</p>
+    <hr>
+    <p>2 Users Allowed</p>
+    <hr>
+    <p>Send up to 3 GB</p>
+    <hr>
+    <a class="btn btn-blue" href="#">LEARN MORE</a>
+  </div>
+
+  <div class="center container">
+    <h3>Professional</h3>
+    <p class="price hide mon">&dollar;24.99</p>
+    <p class="price anu">&dollar;249.99</p>
+    <hr>
+    <p>1 TB Storage</p>
+    <hr>
+    <p>5 Users Allowed</p>
+    <hr>
+    <p>Send up to 10 GB</p>
+    <hr>
+    <a class="btn btn-white" href="#">LEARN MORE</a>
+  </div>
+
+  <div class="white container der">
+    <h3>Master</h3>
+    <p class="price hide mon">&dollar;39.99</p>
+    <p class="price anu">&dollar;399.99</p>
+    <hr>
+    <p>2 TB Storage</p>
+    <hr>
+    <p>10 Users Allowed</p>
+    <hr>
+    <p>Send up to 20 GB</p>
+    <hr>
+    <a class="btn btn-blue" href="#">LEARN MORE</a>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/vchacin">VChacin</a>.
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
