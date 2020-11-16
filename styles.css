@@ -87,6 +87,8 @@ input:checked + .slider:before {
 
 .main-container {
   width: 100%;
+  position: relative;
+  z-index: 5;
 }
 
 .bg-top {
@@ -117,11 +119,11 @@ input:checked + .slider:before {
 }
 
 .container {
-  width: 350px;
+  width: 300px;
   display: inline-block;
   padding: 0;
-  z-index: 100;
   position: relative;
+  z-index: 5;
 }
 
 .container p {
@@ -152,7 +154,7 @@ input:checked + .slider:before {
   height: 400px;
   border-radius: 10px;
   margin: 10px 0;
-  padding: 20px 0 40px 0;
+  padding: 20px 0 30px 0;
   position: relative;
   z-index: 5;
 }
@@ -228,7 +230,4 @@ hr {
   .center {
     padding: 10px 0;
   }
-
-
-
 }
